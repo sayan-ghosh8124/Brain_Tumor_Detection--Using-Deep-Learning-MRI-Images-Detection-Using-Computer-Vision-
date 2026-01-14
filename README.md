@@ -78,4 +78,34 @@ The system aims to assist medical professionals by providing a **computer-aided 
 6. Evaluate performance
 7. Predict tumor type on new MRI images
 
-python main.py
+------------
+
+Project Workflow (Flowchart Style)
+
+Start
+  ↓
+Collect Brain MRI Dataset
+  ↓
+Image Preprocessing
+(Resize, Normalize, Noise Removal)
+  ↓
+Data Augmentation
+(Rotation, Flip, Zoom)
+  ↓
+CNN Model Design
+(Convolution + Pooling + Dense)
+  ↓
+Model Training
+  ↓
+Model Validation
+  ↓
+Model Evaluation
+(Accuracy, Precision, Recall, F1-score)
+  ↓
+Tumor Prediction
+(Glioma / Meningioma / Pituitary / No Tumor)
+  ↓
+Result Visualization
+  ↓
+End
+
